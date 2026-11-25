@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Lightinux — The other side of the internet.">
+  <title>LIGHTINUX 1.0.1 // The other side of the internet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <a href="#home" class="logo" aria-label="Lightinux Home">LIGHT<span>INUX</span></a>
+      <div class="tagline">THE OTHER SIDE OF THE INTERNET.</div>
+    </div>
+    <div class="system-readout">
+      <span class="online"><i></i> ONLINE</span>
+      <span id="clock">--:--:--</span>
+      <span class="connection">CONNECTION: <b>LOCAL DEMO*</b></span><div class="global-search-wrap"><input id="global-search" class="global-search" type="search" placeholder="GLOBAL SEARCH ↵" aria-label="Buscar en Lightinux" aria-describedby="global-search-status"><span id="global-search-status" class="global-search-status" role="status" aria-live="polite"></span></div>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="#home" data-page="home">HOME</a><a href="#boards" data-page="boards">BOARDS</a>
+    <a href="#threads" data-page="threads">THREADS</a><a href="#archive" data-page="archive">ARCHIVE</a>
+    <a href="#tools" data-page="tools">TOOLS</a><a href="#resources" data-page="resources">RESOURCES</a><a href="#knowledge" data-page="knowledge">KNOWLEDGE</a><a href="#database" data-page="database">DATABASE</a><a href="#laboratory" data-page="laboratory">LABORATORY</a><a href="#terminal" data-page="terminal">TERMINAL</a><a href="#favorites" data-page="favorites">FAVORITES</a><a href="#about" data-page="about">ABOUT</a>
+    <a href="#settings" data-page="settings">SETTINGS</a>
+  </nav>
+
+  <div class="ticker"><span>/// LIGHTINUX PUBLIC ACCESS NODE /// READ THE RULES /// THINK BEFORE YOU POST /// NO TRACKING BY DESIGN* ///</span></div>
+
+  <main class="layout">
+    <aside class="sidebar panel">
+      <div class="panel-title">[ DIRECTORY ]</div>
+      <a href="#home">./home</a><a href="#boards">./boards</a><a href="#threads">./threads</a>
+      <a href="#archive">./archive</a><a href="#tools">./tools</a><a href="#resources">./resources</a><a href="#knowledge">./knowledge</a><a href="#database">./database</a><a href="#laboratory">./laboratory</a><a href="#terminal">./terminal</a><a href="#favorites">./favorites</a><a href="#about">./about</a><a href="#settings">./settings</a>
+      <hr>
+      <div class="panel-title">[ QUICK ACCESS ]</div>
+      <a href="#tools" data-tool-link="password">> password_gen</a>
+      <a href="#tools" data-tool-link="hash">> sha256_tool</a>
+      <a href="#tools" data-tool-link="base64">> base64_codec</a>
+      <hr>
+      <div class="mini-status"><span class="green">●</span> NODE STATUS: STABLE<br><span class="muted">BUILD: 1.0.1 / FRONTEND</span></div>
+      <div class="ascii-mark">  .--.   _<br> |o_o | (_)<br> |:_/ | //<br>//   \\ \\\\<br>(|     | )<br>/'\\_   _/`\\<br>\\___)=(___/</div>
+    </aside>
+
+    <section class="content">
+      <div id="view"></div>
+      <footer class="footer">
+        <span>LIGHTINUX // FRONTEND 1.0.1</span>
+        <span>NO REAL ACCOUNTS · NO SERVER · LOCAL DEMO DATA</span>
+      </footer>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
